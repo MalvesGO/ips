@@ -34,6 +34,12 @@
     text-decoration: none;
 }
 
+.nav-item a span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 header {
     height: 100%;
     background: #fff;
@@ -58,4 +64,8 @@ header button {
     font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }

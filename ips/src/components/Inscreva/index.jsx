@@ -6,7 +6,7 @@ const Inscreva = () => {
     <div className='inscreva'>
         <div className="container">
 
-            <h1>Escolha seu curso e inscreva se</h1>
+            <h1>Escolha seu curso e inscreva-se</h1>
 
             <div className='searchCourse'>
                 <select name="" id="">
@@ -16,7 +16,7 @@ const Inscreva = () => {
                     <option value="">Cursos Breves</option>
                 </select>
                 <input type="text" placeholder='Pesquisar' />
-                <button>Candidatura</button>
+                <button disabled>Candidatura</button>
             </div>
         </div>
     </div>

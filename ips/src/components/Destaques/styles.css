@@ -1,0 +1,24 @@
+.destaques {
+    padding: 5rem;
+    background-color: #C1D43B;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: #fff;
+}
+
+.conteudo .texto {
+    width: 50%;
+}
+
+.conteudo p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: gray;
+}

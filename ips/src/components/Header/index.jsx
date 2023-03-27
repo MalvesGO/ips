@@ -1,5 +1,9 @@
 import React from 'react'
 import './styles.css'
+import { BsPersonCircle } from 'react-icons/bs';
+import { MdTrackChanges } from 'react-icons/md'
+import { SlEvent } from 'react-icons/sl'
+import {IoCreate} from 'react-icons/io5'
 
 import Logo from '../../assets/logo2.png'
 
@@ -28,21 +32,45 @@ const Header = () => {
           <ul className='nav'>
             <li className='nav-item'>
               <a href="https://www.facebook.com/">
-                <span>Acompanhe sua candidatura</span>
+                <span>
+                  <MdTrackChanges
+                    size={20}
+                    color="#fff"
+                  />
+                  Acompanhe sua candidatura
+                </span>
               </a>
             </li>
             <li className='nav-item'>
               <a href="https://www.facebook.com/">
-                <span>Area do Aluno</span>
+                <span>
+                  <BsPersonCircle
+                    size={20}
+                    color="#fff"
+                  />
+                  Área do Aluno
+                </span>
               </a>
             </li>
           </ul>
         </div>
       </div>
       <header>
-        <button>Inscreva-se</button>
+        <button>
+          <IoCreate
+            size={20}
+            color="#fff"
+          />
+          Inscreva-se
+          </button>
         <img src={Logo} alt="" />
-        <button>Eventos 2023</button>
+        <button>
+          <SlEvent
+            size={20}
+            color="#fff"
+          />
+          Eventos 2023
+        </button>
       </header>
     </div>
   )

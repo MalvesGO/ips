@@ -1,0 +1,49 @@
+.sectionMenu {
+    background-color: #518CC7;
+}
+
+.menu {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item {
+    padding: 1.5rem;
+    color: #fff;
+    list-style: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.active {
+    background-color: #0B182E;
+    color: #fff;
+}
+
+.active-section {
+    padding: 2rem;
+    background-color: #0B182E;
+    color: #fff;
+}
+
+.link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+.link p {
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
