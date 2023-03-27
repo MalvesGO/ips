@@ -1,0 +1,61 @@
+.topbar {
+    height: 46px;
+    background: #0b182f;
+}
+
+.topbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header {
+    height: 100%;
+    background: #fff;
+    padding: 1rem 3rem;
+    border-bottom: 3px solid #0B182E;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+header button {
+    background: #DD1C65;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
