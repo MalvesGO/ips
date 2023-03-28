@@ -17,10 +17,11 @@
     border-top-right-radius: 10px;
 }
 
-.menu-item a {
+.menu-item p {
     text-decoration: none;
     color: #fff;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .active {
@@ -34,16 +35,35 @@
     color: #fff;
 }
 
-.link {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem
+.course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
 }
 
-.link p {
-    padding: 1rem 3rem;
+.course div {
+    width: 100%;
     background-color: transparent;
     border-radius: 10px;
     border: 2px solid #fff;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.course div p {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.course div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }

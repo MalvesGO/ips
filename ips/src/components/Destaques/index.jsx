@@ -11,9 +11,9 @@ const Destaques = () => {
             width="560"
             height="315"
             src="https://www.youtube.com/embed/0ZJssYUP8WM"
-            frameborder="0"
+            flameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
+            allowFullScreen>
           </iframe>
           <div className='texto'>
             <h1>Nós mostramos-te o melhor caminho.</h1>

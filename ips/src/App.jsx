@@ -1,7 +1,7 @@
 import './App.css'
 
 import Header from './components/Header'
-import Menu from './components/Menu'
+import Cursos from './components/Cursos'
 import Carrousel from './components/Carrousel'
 import Inscreva from './components/Inscreva'
 import Destaques from './components/Destaques'
@@ -16,7 +16,7 @@ function App() {
       <Header />      
       <Carrousel />
       <Inscreva />
-      <Menu />
+      <Cursos />
       <Destaques />
       <Localizacao />
       <Footer />
